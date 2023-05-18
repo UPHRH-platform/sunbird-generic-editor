@@ -1,0 +1,35 @@
+.loading-message {
+    font-size: 30px;
+    margin-bottom: 10px;
+    font-color: grey;
+    color: black;
+    font-weight: 300;
+    font-family: "raleway", sans-serif;
+}
+
+::-webkit-scrollbar {
+    width: 5px;
+    height: 6px;
+    background-color: #d8d8d8;
+}
+
+::-webkit-scrollbar-track {
+    border-radius: 5px;
+    background-color: #ffffff;
+}
+
+::-webkit-scrollbar-thumb {
+    border-radius: 5px;
+    background-color: #d8d8d8;
+}
+
+/* specify size for tooltips */
+.ui.popup.inverted{
+    min-height: 0!important;
+    background: #4a4a4a!important;
+}
+
+.ui.popup.inverted:before{
+    background: #4a4a4a!important;
+}
+/* specify size for tooltips */
